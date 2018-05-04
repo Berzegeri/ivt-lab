@@ -38,7 +38,7 @@ public class GT4500 implements SpaceShip {
 
     boolean firingSuccess = false;
 
-    
+	//firing a single torpedo    
     if(firingMode==FiringMode.SINGLE){
         if (wasPrimaryFiredLast) {
           // try to fire the secondary first
